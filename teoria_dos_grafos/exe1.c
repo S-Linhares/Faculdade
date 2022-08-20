@@ -40,9 +40,27 @@ int main(){
 		
 	}
 	
-	printf("\n");
-	
+	printf("\n    ");
+
+	for(i=0; i<=maior; i++){
+
+		printf("%d  ", i);
+
+	}
+
+	printf("\n   ");
+
+	for(i=0; i<maior; i++){
+
+		printf("---");
+
+	}
+
+	printf("--\n");
+
 	for(i=0; i<maior+1; i++){
+
+		printf("%d | ", i);
 		
 		for(j=0; j<maior+1; j++){
 			
