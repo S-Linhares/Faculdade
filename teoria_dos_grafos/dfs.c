@@ -25,7 +25,7 @@ int main()
     printf("\n Quantidade de vertices: %d ",qtd_vertices);
     printf("\n Quantidade de arestas: %d\n",qtd_arestas);
 
-    vertices = (vertice*)calloc(qtd_vertices+1,sizeof(vertice));
+    vertices = (vertice*)calloc(qtd_vertices + 1,sizeof(vertice));
 
     for(i=0;i<qtd_arestas;i++)
     {
